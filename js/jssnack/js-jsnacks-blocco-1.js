@@ -2,11 +2,14 @@
 
 const numbers = []; // Creiamo la nostra lista vuota
 
-for (let i = 0; i < 5; i++) {
+for (let i = 0; i < 5; i++) { // Chiediamo all'utente 5 numeri con un ciclo for
     const messageInputNumber = parseInt(prompt('Scrivi un numero'));
     console.log(messageInputNumber);
-}; // Chiediamo all'utente 5 numeri con un ciclo for
+
+    numbers.push(messageInputNumber); // Inseriamo i 5 numeri nell'array vuoto
+    console.log(numbers);
+}; 
 
 
-// Inseriamo i 5 numeri nell'array vuoto
+
 // Verifichiamo che il numero scritto non sia già presente nell'array
