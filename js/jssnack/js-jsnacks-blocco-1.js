@@ -6,10 +6,9 @@ for (let i = 0; i < 5; i++) { // Chiediamo all'utente 5 numeri con un ciclo for
     const messageInputNumber = parseInt(prompt('Scrivi un numero'));
     console.log(messageInputNumber);
 
-    numbers.push(messageInputNumber); // Inseriamo i 5 numeri nell'array vuoto
-    console.log(numbers);
+    if (numbers.includes(messageInputNumber) === false) { // Verifichiamo che il numero scritto non sia già presente nell'array
+        numbers.push(messageInputNumber); // Inseriamo i 5 numeri nell'array vuoto
+    }
 }; 
 
-
-
-// Verifichiamo che il numero scritto non sia già presente nell'array
+console.log(numbers);
