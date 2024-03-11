@@ -7,10 +7,10 @@ let sum = 0;
 for (let i = 0; i < 5; i++) {
     const userMessage = parseInt(prompt('Scrivi un numero'));
     console.log(userMessage);
-    sum += userMessage;
+    sum += userMessage; // Facciamo la somma di tutti i numeri inseriti 
+
 }
+
+document.querySelector('.final-result').innerHTML = `Il risultato è: ${sum}` // Stampiamo la somma finale 
 console.log(sum);
 
-
-// Facciamo la somma di tutti i numeri inseriti 
-// Stampiamo la somma finale 
