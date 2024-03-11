@@ -3,7 +3,7 @@
 const numbers = []; // Creiamo la nostra lista vuota
 
 for (let i = 0; i < 5; i++) {
-    const messageInputNumber = prompt('Scrivi un numero');
+    const messageInputNumber = parseInt(prompt('Scrivi un numero'));
     console.log(messageInputNumber);
 }; // Chiediamo all'utente 5 numeri con un ciclo for
 
