@@ -9,3 +9,8 @@
 const listRandomNumber = [4, 89, 43, 100, 7, 3, 76, 200, 8, 123];
 
 
+for (let i = 0; i < listRandomNumber.length; i++) {
+
+
+}
+
