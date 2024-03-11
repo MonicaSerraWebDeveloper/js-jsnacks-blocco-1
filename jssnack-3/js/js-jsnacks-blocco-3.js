@@ -8,7 +8,11 @@ for (let i = 0; i < 6; i++) {
     const userMessage = parseInt(prompt('Scrivi un numero'));
     console.log(userMessage); // Chiediamo 6 volte all'utente di inserire un numero
 
-    if (userMessage % 2 === 1) { 
+    // if (userMessage % 2 === 1) { 
+    //     listNumber.push(userMessage) // Scriviamo nella lista solo i numeri dispari che ci dice l'utente
+    // }
+
+    if (!userMessage % 2 === 0) {
         listNumber.push(userMessage) // Scriviamo nella lista solo i numeri dispari che ci dice l'utente
     }
 }
