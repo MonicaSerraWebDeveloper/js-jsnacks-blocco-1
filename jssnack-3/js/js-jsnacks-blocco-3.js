@@ -12,7 +12,7 @@ for (let i = 0; i < 6; i++) {
     //     listNumber.push(userMessage) // Scriviamo nella lista solo i numeri dispari che ci dice l'utente
     // }
 
-    if (!userMessage % 2 === 0) {
+    if (userMessage % 2 !== 0) {
         listNumber.push(userMessage) // Scriviamo nella lista solo i numeri dispari che ci dice l'utente
     }
 }

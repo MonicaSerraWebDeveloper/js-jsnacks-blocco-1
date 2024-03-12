@@ -6,7 +6,7 @@
 // Vedere qual è il più grandi di tutti
 // Stampare il numero più grande presente in lista
 
-const listRandomNumber = [4, 89, 43, 100, 7, 3, 76, 200, 8, 123];
+const listRandomNumber = [4, 89, 430, 100, 7, 3, 76, 200, 8, 123];
 
 let number = 0;
 
@@ -14,6 +14,7 @@ for (let i = 0; i < listRandomNumber.length; i++) {
 
     if (listRandomNumber[i] > number) {
         number = listRandomNumber[i]
+
     }
 }
 
